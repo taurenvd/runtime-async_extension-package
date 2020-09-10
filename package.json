@@ -1,0 +1,22 @@
+{
+  "name": "com.unity.async-extension",
+  "version": "1.0.0",
+  "displayName": "C# Async/Await Support for Unity",
+  "description": "This package allows usage of C# async/await modifiers in Unity.\n\n##Usage\r\npublic async Response GetResponse()\r\n{\r\n\tvar response = await UnityWebRequest(\"https://somedata.com/file.123\"); //wait download from web resource\r\n\r\n\tawait Timer(3, null); // wait some timers/coroutines\r\n\r\n\tawait WaitUntil(()=>_some_int_field == 5); // wait CustomYieldInstructions\r\n\r\n\treturn response;\r\n}",
+  "unity": "2017.1",
+  "unityRelease": "0b5",
+  "keywords": [
+    "Runtime",
+    "Extension",
+    "Async"
+  ],
+    "dependencies": {
+    "com.unity.ienumerator-timers": "1.0.0"
+  },
+  "author": {
+    "name": "Valerii Dryl",
+    "email": "taurenvd@gmail.com",
+    "url": "https://www.unity3d.com"
+  },
+  "type": "module"
+}

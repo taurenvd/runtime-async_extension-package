@@ -1,0 +1,17 @@
+{
+    "name": "UnityUseful.AsyncExtensions",
+    "references": [
+        "GUID:9623a28b219c83e4a92316fdf84a0775"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [
+        "WebGL"
+    ],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

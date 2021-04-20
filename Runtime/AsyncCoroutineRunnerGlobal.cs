@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿#if !UNITY_WEBGL
+using UnityEngine;
 
 using System.Collections;
 using System.Collections.Generic;
@@ -70,3 +71,4 @@ namespace UnityUseful.AsyncExtensions
         }
     } 
 }
+#endif

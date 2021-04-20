@@ -1,13 +1,14 @@
-﻿    using UnityEngine;
+﻿#if !UNITY_WEBGL
+using UnityEngine;
 
-    using System;
-    using System.Linq;
-    using System.Threading;
-    using System.Reflection;
-    using System.Collections;
-    using System.Collections.Generic;
-    using System.Runtime.CompilerServices;
-    using System.Runtime.ExceptionServices;
+using System;
+using System.Linq;
+using System.Threading;
+using System.Reflection;
+using System.Collections;
+using System.Collections.Generic;
+using System.Runtime.CompilerServices;
+using System.Runtime.ExceptionServices;
 
 namespace UnityUseful.AsyncExtensions
 {
@@ -364,3 +365,4 @@ namespace UnityUseful.AsyncExtensions
 
     } 
 }
+#endif

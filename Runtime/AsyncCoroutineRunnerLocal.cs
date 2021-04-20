@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿#if !UNITY_WEBGL
+using UnityEngine;
 using UnityUseful.IEnumeratorUtils;
 
 namespace UnityUseful.AsyncExtensions
@@ -42,3 +43,4 @@ namespace UnityUseful.AsyncExtensions
         }
     } 
 }
+#endif

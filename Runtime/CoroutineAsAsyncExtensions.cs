@@ -109,11 +109,6 @@ namespace UnityUseful.AsyncExtensions
             return Task.Run(() => { }).ConfigureAwait(false).GetAwaiter();
         }
     }
-    public class WaitForUpdate : CustomYieldInstruction
-    {
-        public override bool keepWaiting => false;
-    }
-
 }
 
 #endif

@@ -1,4 +1,4 @@
-﻿#if !UNITY_WEBGL
+﻿#if !UNITY_WEBGL || UNITY_EDITOR
 using UnityEngine;
 
 using System;
@@ -362,7 +362,10 @@ namespace UnityUseful.AsyncExtensions
             }
         }
 
-
+        public class WaitForUpdate : CustomYieldInstruction
+        {
+            public override bool keepWaiting => false;
+        }
     } 
 }
 #endif

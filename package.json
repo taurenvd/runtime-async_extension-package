@@ -18,5 +18,5 @@
     "email": "taurenvd@gmail.com",
     "url": "https://www.unity3d.com"
   },
-  "type": "module"
+  "type": "library"
 }
